@@ -12,7 +12,7 @@ The site features a professional, lively interface where users can hover over se
 # Tech Stack
 > Frontend: HTML, CSS, JavaScript
 > Backend (Mock API): JSON Server (db.json)
-> Version Control & Hosting: GitHub
+> Version Control & Hosting: GitHub/ngrok
 
 How It Works
 > The homepage loads services dynamically from the API (db.json).
@@ -21,9 +21,6 @@ How It Works
 > No page reloads—everything runs as a SPA.
 
 # Installation & Setup
-Clone the Repository:
-$ git clone https://github.com/YOUR-USERNAME/construction-services-spa.git
-$ cd construction-services-spa
 // Run JSON Server (for Local API)
 # To ensure json-server is installed:
 $ npm install -g json-server
