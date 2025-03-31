@@ -1,0 +1,130 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "name": "Surveying",
+      "description": "Professional land surveying services to ensure accurate measurements and legal boundaries.",
+      "image": "https://lh5.googleusercontent.com/p/AF1QipNaENHlhM5l9zmzMl46V4WHlW0QcfpMpgMuEuL3=w900-h900-k-no-p"
+    },
+    {
+      "id": 2,
+      "name": "Site Preparation",
+      "description": "Clearing and leveling land to get it ready for construction.",
+      "image": "https://shillingexcavation.com/media/farm-excavation-1.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Construction",
+      "description": "Construction of residential and commercial buildings with quality materials.",
+      "image": "https://www.kenyaengineer.co.ke/wp-content/uploads/2019/03/Commercial-Construction-Site-Med.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Roofing",
+      "description": "High-quality roofing installation and repairs for durability and protection.",
+      "image": "https://www.fixkenya.co.ke/wp-content/uploads/2024/03/Fix-Kenya-Engineering-ROOFING-STRUCTURE-OPTIONS.webp"
+    },
+    {
+      "id": 5,
+      "name": "Plumbing",
+      "description": "Installation and maintenance of water supply and drainage systems.",
+      "image": "https://portal.ewak.co.ke/uploads/projects/6630dc2bc08dbc3aed914d3f_cover.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "Electrical Installation",
+      "description": "Safe and reliable electrical wiring and fixture installations.",
+      "image": "https://www.deltaenergysystems.co.ke/wp-content/uploads/2023/10/WhatsApp-Image-2023-12-12-at-2.27.10-PM.jpeg"
+    },
+    {
+      "id": "3688",
+      "name": "Roofing",
+      "image": "images/roofing.jpg",
+      "description": "High-quality roofing services."
+    },
+    {
+      "id": "c4dc",
+      "name": "Roofing",
+      "image": "images/roofing.jpg",
+      "description": "High-quality roofing services."
+    },
+    {
+      "id": "c387",
+      "name": "Roofing",
+      "image": "images/roofing.jpg",
+      "description": "High-quality roofing services."
+    },
+    {
+      "id": "191c",
+      "name": "Roofing",
+      "image": "images/roofing.jpg",
+      "description": "High-quality roofing services."
+    },
+    {
+      "id": "cc4b",
+      "name": "Roofing",
+      "image": "images/roofing.jpg",
+      "description": "High-quality roofing services."
+    },
+    {
+      "id": "7231",
+      "name": "Roofing",
+      "image": "images/roofing.jpg",
+      "description": "High-quality roofing services."
+    },
+    {
+      "id": "9073",
+      "name": "Roofing",
+      "image": "images/roofing.jpg",
+      "description": "High-quality roofing services."
+    },
+    {
+      "id": "6b9f",
+      "name": "Roofing",
+      "image": "images/roofing.jpg",
+      "description": "High-quality roofing services."
+    },
+    {
+      "id": "e1f4",
+      "name": "Roofing",
+      "image": "images/roofing.jpg",
+      "description": "High-quality roofing services."
+    },
+    {
+      "id": "eb4d",
+      "name": "Roofing",
+      "image": "images/roofing.jpg",
+      "description": "High-quality roofing services."
+    },
+    {
+      "id": "5918",
+      "name": "Roofing",
+      "image": "images/roofing.jpg",
+      "description": "High-quality roofing services."
+    },
+    {
+      "id": "41db",
+      "name": "Roofing",
+      "image": "images/roofing.jpg",
+      "description": "High-quality roofing services."
+    },
+    {
+      "id": "adb3",
+      "name": "Roofing",
+      "image": "images/roofing.jpg",
+      "description": "High-quality roofing services."
+    },
+    {
+      "id": "7e0a",
+      "name": "Roofing",
+      "image": "images/roofing.jpg",
+      "description": "High-quality roofing services."
+    },
+    {
+      "id": "ed88",
+      "name": "Roofing",
+      "image": "images/roofing.jpg",
+      "description": "High-quality roofing services."
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://cdn-ikppagb.nitrocdn.com/eMxWSfPVysMuSJLAstZFNLrnYGrkCgAl/assets/images/optimized/rev-5f0946d/marbleengineering.co.ke/wp-content/uploads/2024/10/Construction-Company-In-Kenya.webp') no-repeat center center/cover;
+    color: #333;
+    transition: background 0.3s ease-in-out;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+
+/* Navigation */
+#site-navigation {
+    background: #222;
+    padding: 10px 0;
+}
+#site-navigation ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+#site-navigation ul li {
+    display: inline;
+    margin: 0 15px;
+}
+#site-navigation ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+#site-navigation ul li a:hover {
+    text-decoration: underline;
+}
+
+/* About Section */
+#about {
+    padding: 10px;
+    background: rgb(179, 178, 178);
+    text-align: center;
+    margin: 20px;
+    margin-top: 0px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+/* Services Section */
+#services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.service-box {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    perspective: 1000px; /* Enables 3D flip effect */
+    cursor: pointer;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Inner container to hold both sides */
+.service-box-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.8s ease-in-out; /* Smooth flip effect */
+}
+
+/* Flip on hover */
+.service-box:hover .service-box-inner {
+    transform: rotateY(180deg);
+}
+
+/* Front and Back sides */
+.service-front, .service-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Front Side */
+.service-front {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Ensure the image fits properly */
+.service-front img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Title in front */
+.service-title {
+    position: relative;
+    z-index: 2;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+/* Back Side */
+.service-back {
+    background: rgba(148, 252, 128, 0.9);
+    color: rgb(255, 255, 255);
+    transform: rotateY(180deg);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Delete Button Styles */
+.delete-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background 0.3s ease-in-out;
+}
+
+.delete-btn:hover {
+    background: darkred;
+}
+
+/* Contact Section */
+#contacts {
+    padding: 20px;
+    text-align: center;
+    color: rgb(189, 253, 160);
+    background: rgba(73, 75, 75, 0.8);
+    margin: 20px;
+    border-radius: 8px;
+}
+
+#contact-form {
+    display: none;
+    margin-top: 20px;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact-form button {
+    padding: 10px 15px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#contact-form button:hover {
+    background: #0056b3;
+}
+
+/* Contact Toggle Button */
+#contact-toggle {
+    padding: 10px 15px;
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background 0.3s ease-in-out;
+}
+
+#contact-toggle:hover {
+    background: #218838;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+    position: relative;
+    background: rgba(34, 34, 34, 0.3);
+    color: white;
+}
+
+/* Light/Dark Mode */
+.light-mode {
+    background: #f1f0f0;
+    color: #222;
+}
+
+.light-mode header,
+.light-mode #site-navigation,
+.light-mode footer {
+    background: #ddd;
+    color: black;
+}

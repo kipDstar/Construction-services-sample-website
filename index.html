@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construction Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>JK CONSTRUCTION SERVICES</h1>
+        <h2>Let Us Build Your DREAMS!!</h2>
+        <button id="theme-toggle">Toggle Light/Dark Mode</button>
+    </header>
+    
+    <nav id="site-navigation">
+        <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contacts">Contact Us Today!!</a></li>
+        </ul>
+    </nav>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a professional construction services company dedicated to providing top-notch solutions. Our expertise spans surveying, site preparation, major construction, roofing, plumbing, and electrical installations. We ensure quality, efficiency, and customer satisfaction in every project.</p>
+    </section>
+    
+    <section id="services">
+        <h2>Our Services</h2>
+        <div id="services-container">
+            <!-- Services will be dynamically inserted here -->
+        </div>
+    </section>
+    
+    <section id="contacts">
+        <h2>Contact Us</h2>
+        <p>Email: contact@JKconstructionservices.com</p>
+        <p>Phone: +254114212310</p>
+        <p>Address: 346 Main Street, Nairobi, Kenya</p>
+        <button id="contact-toggle">Talk to Us</button>
+        <form id="contact-form" style="display: none;">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 JK Construction Services. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
