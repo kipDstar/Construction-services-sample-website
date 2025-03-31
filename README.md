@@ -1,13 +1,13 @@
 # Construction-services-sample-website
 Sample of a construction services company webpage built as a Single Page Application (SPA) format.
-The site features a professional, lively interface where users can hover over service blocks to reveal more details.
+The site features a professional, lively interface where users can hover over service blocks to reveal more details on the particular service mentioned.
 
 # Key Features
 > Dynamic Service Display: Services such as surveying, site prep, major construction, roofing, plumbing, and electrical installation are presented in an interactive layout.
 > Hover Pop-up Details: Hovering over a service block triggers a pop-up with detailed descriptions.
 > Asynchronous API Handling: Data is fetched from a local JSON server (db.json) using JavaScript.
 > Event Listeners for Interactivity: Multiple event listeners enhance user experience (hover effects, click events, etc.).
-> Fully Responsive Design: Optimized for different screen sizes.
+> Responsive Design: Optimized for different screen sizes.
 
 # Tech Stack
 > Frontend: HTML, CSS, JavaScript
