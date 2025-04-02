@@ -1,4 +1,5 @@
-# Construction Services Sample Website
+# JK-Construction Services Sample Website
+# Author: JESSE KIPSANG
 
 This project is a sample webpage for a construction services company, built as a **Single Page Application (SPA)**. The site features a professional and interactive interface, allowing users to explore various services dynamically.
 
@@ -44,10 +45,45 @@ Follow these steps to set up and run the project locally:
   ```bash
   $ json-server --watch db.json
 ```
+Using ngrok: To run **ngrok** and expose your local server to the internet, follow these steps:
 
+### **Step 1: Install ngrok**
+If you haven't installed ngrok yet, you can do so using npm:
+```bash
+$ npm install -g ngrok
+```
+
+Alternatively, you can download it directly from the [ngrok website](https://ngrok.com/download).
+
+---
+
+### **Step 2: Start Your Local Server**
+Ensure your local server is running. For your project:
+1. Start the JSON Server:
+   ```bash
+   $ json-server --watch db.json
+   ```
+2. Serve your project using Live Server in VS Code or any other local server. For example, Live Server typically runs on `http://127.0.0.1:5500`.
+
+---
+
+### **Step 3: Run ngrok**
+Run ngrok to expose your local server to the internet. Use the port number of your local server (e.g., `5500` for Live Server or `3000` for JSON Server).
+
+For Live Server:
+```bash
+$ ngrok http 5500
+```
+
+For JSON Server:
+```bash
+$ ngrok http 3000
+```
 ### Running the Project
 
 - Open `index.html` in a browser or use Live Server in VS Code.
+- site url: http://127.0.0.1:5500/Construction-services-sample-website/index.html (LiveServer)
+- Another option is via ngrok using the following link: https://fa5e-41-139-163-237.ngrok-free.app/Construction-services-sample-website/
 
 ---
 
